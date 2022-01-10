@@ -1,11 +1,15 @@
 <template>
   <div>
-    <h2>Vue</h2>
+    <SideBar />
+    <SideBarRight />
   </div>
 </template>
 
 <script>
+import SideBar from "../components/SideBar";
+import SideBarRight from "../components/SideBarRight";
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  components: {SideBarRight, SideBar}
 }
 </script>
