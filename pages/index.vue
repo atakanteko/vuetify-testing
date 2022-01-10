@@ -2,6 +2,8 @@
   <div>
     <SideBar />
     <SideBarRight />
+
+    sadfasf
   </div>
 </template>
 

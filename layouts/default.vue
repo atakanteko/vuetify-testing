@@ -1,5 +1,5 @@
 <template>
-  <v-app dark id="inspire">
+  <v-app style="background: #F4F3F4">
     <v-main>
         <Nuxt />
     </v-main>
